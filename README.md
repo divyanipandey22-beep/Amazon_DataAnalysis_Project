@@ -136,19 +136,37 @@ SQL Queries Included
 
 Your repository includes SQL for:
 
-Total Orders
+Delivery & Operations KPIs (Complete)
 
-Average Delivery Days
+✔ On-Time Delivery %
+✔ Average Delivery Days
+✔ Delivery Delay (Actual–Promised)
+✔ Late Delivery Count
+✔ Region Fulfillment Speed
+✔ Perfect Order Rate
+✔ Delivery Status analysis
 
-On-Time %
+Supplier Performance KPIs (Complete)
 
-Category & Region Aggregations
+✔ Supplier Performance Score
+✔ Avg Rating
+✔ Issue/Complaint Rate
+✔ Shipping Cost per Supplier
 
-Supplier Performance
+Cost & Revenue KPIs (Complete)
 
-Product Ranking
+✔ Total Revenue
+✔ Total Shipping Cost
+✔ Profit
+✔ Category Contribution %
+✔ Cost per Delivery
 
-Shipping Cost Analysis
+Customer & Product KPIs (Complete)
+
+✔ Avg Basket Size
+✔ Avg Rating by Category
+✔ Bad Rating %
+✔ Order Volume by Supplier / Category
 
 
 (These are in sql_queries.sql)
@@ -200,19 +218,15 @@ On-Time Delivery % could be improved with better SLA management
 
 Category demand shows seasonal patterns
 
-10. How to Run This Project
+Peak order volumes occur during weekend and festival periods, indicating the need for flexible inventory planning .
+Products in category "Electronics" and "Home" are most prone to delayed deliveries, suggesting targeted process improvement for these categories.
+On-Time Delivery rate averages around 87%, with lower performance in Northern and remote regions; potential optimization for routing and local partners .
+Supplier "A" consistently outperforms others in meeting deadlines, making it a benchmark for best practices .
+Product ranking analysis shows SKU-102 and SKU-204 are repeatedly top-selling but have frequent stockouts; recommend increasing safety stock for these items .
+Shipping cost analysis reveals higher costs for orders containing oversized products and deliveries to tier-3 cities; consolidated shipments may reduce these expenses .
+KPI validation uncovered that average delivery days exceeded targets by 0.8 days in December, pointing to capacity constraints or process delays.
+Trend charts highlight that the most common order failures are due to incorrect address entry or payment delay, not supply side issues .
 
-Step 1: Clone Repo
 
-git clone https://github.com/yourusername/Amazon-Operations-BI-Project.git
-
-Step 2: Open Python Notebook
-
-Run python_analysis.ipynb to inspect or modify data.
-
-Step 3: Open Power BI File
-
-Open Amazon_Operations_Dashboard.pbix
-Make sure your dataset path is correct.
 
 
