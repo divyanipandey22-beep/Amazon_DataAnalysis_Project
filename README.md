@@ -1,5 +1,4 @@
-# Amazon_DataAnalysis_Project
-Amazon sales data analysis using Python. SQL(SQLite) and Power BI
+
 Amazon Operations BI Project
 
 A complete end-to-end analytics project covering SQL, Python, and Power BI, designed to analyze and optimize Amazon’s supply chain & delivery performance.
